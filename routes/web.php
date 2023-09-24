@@ -28,10 +28,24 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-
-    $welcomeMsg = [
-        'msg' => '<h1 class="text-danger">Hello World!</h1>'
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS'
+    ]
     ];
 
-    return view('welcome', $welcomeMsg);
+  return view('home', $data);
 });
+
+Route::get('/home', function () {
+
+  
+
+  return view('home');
+});
+
+?>
