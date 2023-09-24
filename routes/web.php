@@ -41,11 +41,64 @@ Route::get('/', function () {
   return view('home', $data);
 });
 
-Route::get('/home', function () {
+Route::get('blog', function () {
 
-  
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS'
+    ]
+    ];
 
-  return view('home');
+  return view('blog', $data);
+});
+
+Route::get('portfolio', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS'
+    ]
+    ];
+
+  return view('portfolio', $data);
+});
+
+Route::get('about', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS'
+    ]
+    ];
+
+  return view('about', $data);
+});
+
+Route::get('contacts', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS'
+    ]
+    ];
+
+  return view('contacts', $data);
 });
 
 ?>

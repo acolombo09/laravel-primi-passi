@@ -12,14 +12,14 @@
   <!-- Font Awesome CDN  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-  <title>HOME</title>
+  <title>BLOG</title>
 </head>
 
 <body class="bg-dark bg-opacity-25">
   {{-- <h1 class="text-danger">Hello World!</h1> --}}
   <main>
 
-    <div class="container my-3">
+    <div class="container mt-3">
 
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
@@ -58,14 +58,13 @@
       </nav>
 
       <div class="text-center mt-3">
-        <h1 class="text-danger">Ciao!</h1>
-        <h2 class="mt-3">Benvenuto nella home</h2>
+        <h2 class="mt-3">Benvenuto nella sezione Portfolio</h2>
       </div>
 
     </div>
 
 </main>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
