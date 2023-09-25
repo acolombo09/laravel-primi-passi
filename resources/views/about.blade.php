@@ -12,7 +12,7 @@
   <!-- Font Awesome CDN  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-  <title>BLOG</title>
+  <title>ABOUT US</title>
 </head>
 
 <body>
@@ -187,18 +187,8 @@
         </div>
       </div>
   
-      <hr class="featurette-divider">
-  
-      <!-- /END THE FEATURETTES -->
-  
     </div><!-- /.container -->
   
-  
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
   </main>
 
 </body>

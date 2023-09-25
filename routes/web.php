@@ -10,7 +10,8 @@ Route::get('/', function () {
       'BLOG',
       'PORTFOLIO',
       'ABOUT',
-      'CONTACTS'
+      'CONTACTS',
+      'NEWPAGE'
     ]
     ];
 
@@ -25,7 +26,8 @@ Route::get('blog', function () {
       'BLOG',
       'PORTFOLIO',
       'ABOUT',
-      'CONTACTS'
+      'CONTACTS',
+      'NEWPAGE'
     ]
     ];
 
@@ -40,7 +42,8 @@ Route::get('portfolio', function () {
       'BLOG',
       'PORTFOLIO',
       'ABOUT',
-      'CONTACTS'
+      'CONTACTS',
+      'NEWPAGE'
     ]
     ];
 
@@ -55,7 +58,8 @@ Route::get('about', function () {
       'BLOG',
       'PORTFOLIO',
       'ABOUT',
-      'CONTACTS'
+      'CONTACTS',
+      'NEWPAGE'
     ]
     ];
 
@@ -70,11 +74,28 @@ Route::get('contacts', function () {
       'BLOG',
       'PORTFOLIO',
       'ABOUT',
-      'CONTACTS'
+      'CONTACTS',
+      'NEWPAGE'
     ]
     ];
 
   return view('contacts', $data);
+});
+
+Route::get('newpage', function () {
+
+  $data = [
+    'headerLinks' => [
+      'HOME',
+      'BLOG',
+      'PORTFOLIO',
+      'ABOUT',
+      'CONTACTS',
+      'NEWPAGE'
+    ]
+    ];
+
+  return view('newpage', $data);
 });
 
 ?>
